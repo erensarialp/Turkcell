@@ -13,5 +13,16 @@ public class Oop {
         m1.setKm(10000);
         m1.startRent();
 
+        System.out.println("*******");
+
+        //Polymorphism
+
+        Vehicle v1 = new Car();
+        Vehicle v2 = new Motorcycle();
+
+        v1.startRent(); //1.
+        v2.startRent(); //2.
+
+
     }
 }

@@ -16,7 +16,7 @@ public class Motorcycle extends Vehicle {
 
     @Override
     public void startRent() {
-        super.startRent();
         System.out.println("Motorcycle Rent");
+        super.startRent();
     }
 }
