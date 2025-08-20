@@ -23,6 +23,8 @@ public class Oop {
         v1.startRent(); //1.
         v2.startRent(); //2.
 
-
+        //Casting
+        Car c = (Car) v1;
+        c.getDoorCount();
     }
 }
