@@ -19,6 +19,10 @@ public class Vehicle {
 
     }
 
+    public void startRent(){
+        System.out.println("Renting Vehicle");
+    }
+
     public String getBrand() {
         return brand;
     }
