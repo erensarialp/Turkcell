@@ -26,5 +26,8 @@ public class Oop {
         //Casting
         Car c = (Car) v1;
         c.getDoorCount();
+
+        DatabaseHelper.connect("admin" , "admin123");
+        DatabaseHelper.connect("admin", "admin12345", "jdbc://localhost5453");
     }
 }
