@@ -1,3 +1,5 @@
+package com.turkcell.intro;
+
 public class Methods {
     public static void main(String[] args) {
         veritabaninaBaglan("abc123 ");

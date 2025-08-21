@@ -1,4 +1,4 @@
-package com.turkcell;
+package com.turkcell.intro;
 
 //Vehicle classindaki tum ozellikleri al, uzerine buradaki ozellikleri ekle.
 
